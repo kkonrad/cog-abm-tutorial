@@ -102,6 +102,12 @@ Installing requirements
 
     pip install -r COG-ABM/requirements.txt
 
+if it fails try installing numpy first:
+
+::
+
+    pip install numpy
+
 
 Useful packages
 ~~~~~~~~~~~~~~~
