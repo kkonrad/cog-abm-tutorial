@@ -37,12 +37,14 @@ git commands:
 Some setup
 ~~~~~~~~~~
 
-    - git config --global user.name "Your Name Comes Here"
-    - git config --global user.email you@yourdomain.example.com
+::
 
-    - git config --global color.diff auto
-    - git config --global color.status auto
-    - git config --global color.branch auto
+    git config --global user.name "Your Name Comes Here"
+    git config --global user.email you@yourdomain.example.com
+
+    git config --global color.diff auto
+    git config --global color.status auto
+    git config --global color.branch auto
 
 
 Other topics
@@ -56,6 +58,8 @@ Other topics
 Python
 ------
 
+- PEP8
+
 
 Obtaining COG-ABM
 -----------------
@@ -63,14 +67,16 @@ You can make fork from official version (from Github site) and than clone or jus
 
 Clone repository
 
-  - git clone git@github.com:CogSys/cog-abm.git COG-ABM
+::
+
+    git clone git@github.com:CogSys/cog-abm.git COG-ABM
 
 
 Making virtual environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 This step is optional but recommended.
 
-$$
+::
 
     virtualenv --no-site-packages .env
     . .env/bin/activate
@@ -90,17 +96,23 @@ Running simulation
 
 Go to **src/steels** directory and run
 
-  python steels_main.py -p simulation_GG.xml -f simulation_results
+::
+
+    python steels_main.py -p simulation_GG.xml -f simulation_results
 
 It should take less than 1 minute to finish.
 If you can't remember the command :) just type:
 
-  python steels_main.py --help
+::
+
+    python steels_main.py --help
 
 Many programs in COG-ABM have this option
 
-  python analyzer.py -f simulation_results it DSA
-  python analyzer.py -f simulation_results it DS
-  python analyzer.py -f simulation_results -c it DS
-  python analyzer.py -f simulation_results it DS min_DSA max_DSA -c --xlabel="Iteration" --ylabel="DS"
+::
+
+    python analyzer.py -f simulation_results it DSA
+    python analyzer.py -f simulation_results it DS
+    python analyzer.py -f simulation_results -c it DS
+    python analyzer.py -f simulation_results it DS min_DSA max_DSA -c --xlabel="Iteration" --ylabel="DS"
 
