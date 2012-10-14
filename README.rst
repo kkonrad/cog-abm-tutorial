@@ -12,8 +12,8 @@ See http://git-scm.com/video/what-is-version-control to get some grasp on versio
 Tutorials
 ~~~~~~~~~
 
-  http://git-scm.com/book
-  http://git-scm.com/videos
+  - http://git-scm.com/book
+  - http://git-scm.com/videos
 
 
 Important topics
@@ -21,36 +21,36 @@ Important topics
 
 git commands:
 
-  init
-  clone
-  add
-  commit (-a, -m)
-  push
-  pull
-  stash
-  merege
-  rebase
-  mv
-  rm
+  - init
+  - clone
+  - add
+  - commit (-a, -m)
+  - push
+  - pull
+  - stash
+  - merege
+  - rebase
+  - mv
+  - rm
 
 
 Some setup
 ~~~~~~~~~~
 
-    git config --global user.name "Your Name Comes Here"
-    git config --global user.email you@yourdomain.example.com
+    - git config --global user.name "Your Name Comes Here"
+    - git config --global user.email you@yourdomain.example.com
 
-    git config --global color.diff auto
-    git config --global color.status auto
-    git config --global color.branch auto
+    - git config --global color.diff auto
+    - git config --global color.status auto
+    - git config --global color.branch auto
 
 
 Other topics
 ~~~~~~~~~~~~
 
-  Useful app - gitg
-  SSH Keys - https://help.github.com/categories/56/articles
-  Github comments
+  - Useful app - gitg
+  - SSH Keys - https://help.github.com/categories/56/articles
+  - Github comments
 
 
 Python
@@ -63,22 +63,26 @@ You can make fork from official version (from Github site) and than clone or jus
 
 Clone repository
 
-  git clone git@github.com:CogSys/cog-abm.git COG-ABM
+  - git clone git@github.com:CogSys/cog-abm.git COG-ABM
 
 
 Making virtual environment
 ~~~~~~~~~~~~~~~~~~~~~~~~~~
 This step is optional but recommended.
 
-  virtualenv --no-site-packages .env
-  . .env/bin/activate
-  deactivate
+$$
+
+    virtualenv --no-site-packages .env
+    . .env/bin/activate
+    deactivate
 
 
 Useful packages
 ~~~~~~~~~~~~~~~
 
-  pip install ipython ipdb
+::
+
+   pip install ipython ipdb
 
 
 Running simulation
