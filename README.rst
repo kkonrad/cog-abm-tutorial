@@ -53,11 +53,23 @@ Other topics
 - Useful app - gitg
 - SSH Keys - https://help.github.com/categories/56/articles
 - Github comments
+- great TAB
 
 
 Python
 ------
 
+  http://pl.wikibooks.org/wiki/Zanurkuj_w_Pythonie (polish)
+
+
+- lists, tuples, dicts, strings
+- print
+- classes
+- lambdas
+- comments
+- function defaults argument fials
+- *args, **kwargs
+- or trick
 - PEP8
 
 
