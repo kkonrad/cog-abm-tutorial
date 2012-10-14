@@ -121,10 +121,33 @@ If you can't remember the command :) just type:
 
 Many programs in COG-ABM have this option
 
+Go to:
+
+  https://github.com/CogSys/cog-abm/blob/master/src/cog_abm/core/simulation.py#L28
+
+and put:
+
+::
+
+        self.dump_often = True
+        self.pb = True
+
+
 ::
 
     python analyzer.py -f simulation_results it DSA
     python analyzer.py -f simulation_results it DS
     python analyzer.py -f simulation_results -c it DS
     python analyzer.py -f simulation_results it DS min_DSA max_DSA -c --xlabel="Iteration" --ylabel="DS"
+
+
+Presenter
+~~~~~~~~~
+
+Go to **src/steels** directory and run
+
+::
+
+    python munsell_palette.py -d ../steels/
+
 
