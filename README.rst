@@ -54,6 +54,7 @@ Other topics
 - SSH Keys - https://help.github.com/categories/56/articles
 - Github comments
 - great TAB
+- BitBucket for students - free private repos!
 
 
 Python
