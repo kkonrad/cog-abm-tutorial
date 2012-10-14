@@ -109,6 +109,13 @@ if it fails try installing numpy first:
     pip install numpy
 
 
+For Ubuntu might turn out to be needed:
+
+::
+
+    sudo apt-get install libblas-dev liblapack-dev gfortran gfortran-multilib libfreetype6-dev libpng12-dev
+
+
 Useful packages
 ~~~~~~~~~~~~~~~
 
