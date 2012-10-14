@@ -32,6 +32,7 @@ git commands:
 - rebase
 - mv
 - rm
+- blame
 
 
 Some setup
