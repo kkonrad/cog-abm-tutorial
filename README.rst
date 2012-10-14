@@ -95,6 +95,14 @@ This step is optional but recommended.
     deactivate
 
 
+Installing requirements
+~~~~~~~~~~~~~~~~~~~~~~~
+
+::
+
+    pip install -r COG-ABM/requirements.txt
+
+
 Useful packages
 ~~~~~~~~~~~~~~~
 
