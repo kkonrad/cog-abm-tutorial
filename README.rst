@@ -12,8 +12,8 @@ See http://git-scm.com/video/what-is-version-control to get some grasp on versio
 Tutorials
 ~~~~~~~~~
 
-  - http://git-scm.com/book
-  - http://git-scm.com/videos
+- http://git-scm.com/book
+- http://git-scm.com/videos
 
 
 Important topics
@@ -21,17 +21,17 @@ Important topics
 
 git commands:
 
-  - init
-  - clone
-  - add
-  - commit (-a, -m)
-  - push
-  - pull
-  - stash
-  - merege
-  - rebase
-  - mv
-  - rm
+- init
+- clone
+- add
+- commit (-a, -m)
+- push
+- pull
+- stash
+- merege
+- rebase
+- mv
+- rm
 
 
 Some setup
@@ -50,9 +50,9 @@ Some setup
 Other topics
 ~~~~~~~~~~~~
 
-  - Useful app - gitg
-  - SSH Keys - https://help.github.com/categories/56/articles
-  - Github comments
+- Useful app - gitg
+- SSH Keys - https://help.github.com/categories/56/articles
+- Github comments
 
 
 Python
