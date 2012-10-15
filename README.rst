@@ -130,6 +130,19 @@ Useful packages
 
 Running simulation
 ------------------
+Go to:
+
+  https://github.com/CogSys/cog-abm/blob/master/src/cog_abm/core/simulation.py#L28
+
+and put:
+
+::
+
+        self.dump_often = True
+        self.pb = True
+
+This will enable dumps used for generating WCS chips preview and show progress bar.
+By default disabled due to small slowdown.
 
 Go to **src/steels** directory and run
 
@@ -145,17 +158,6 @@ If you can't remember the command :) just type:
     python steels_main.py --help
 
 Many programs in COG-ABM have this option
-
-Go to:
-
-  https://github.com/CogSys/cog-abm/blob/master/src/cog_abm/core/simulation.py#L28
-
-and put:
-
-::
-
-        self.dump_often = True
-        self.pb = True
 
 
 ::
