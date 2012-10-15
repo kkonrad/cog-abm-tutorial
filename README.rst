@@ -65,6 +65,7 @@ Python
 
 
 - lists, tuples, dicts, strings
+- floats to ints etc.
 - print
 - classes
 - lambdas
@@ -73,6 +74,7 @@ Python
 - *args, **kwargs
 - or trick
 - PEP8
+- iterator/generator
 
 
 Obtaining COG-ABM
