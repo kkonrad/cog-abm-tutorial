@@ -85,7 +85,7 @@ Clone repository
 
 ::
 
-    git clone git@github.com:CogSys/cog-abm.git COG-ABM
+    git clone https://github.com/CogSys/cog-abm.git COG-ABM
 
 
 Making virtual environment
@@ -171,7 +171,7 @@ Many programs in COG-ABM have this option
 Presenter
 ~~~~~~~~~
 
-Go to **src/steels** directory and run
+Go to **src/presenter** directory and run
 
 ::
 
