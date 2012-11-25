@@ -55,7 +55,8 @@ Loading data and checking classifiers quality.
 
 ::
 
-    from cog_abm.ML.core import load_samples_arff, split_data, Sample
+    import pprint
+    from cog_abm.ML.core import load_samples_arff, split_data, Sample, split_data_cv
     from cog_abm.ML.orange_wrapper import OrangeClassifier
     from cog_abm.ML.statistics import aucroc_avg_classifier_performance
 
@@ -75,12 +76,19 @@ Loading data and checking classifiers quality.
     known_sample = samples[0]
     unknown_sample = Sample([v + (-1) ** i for i, v in enumerate(known_sample.get_values())])
 
+    print
+    print "Known sample:", str(known_sample)
+    print "Unknown sample:", str(unknown_sample)
+
     for cl in classifiers:
         print
+        print cl
         cl_distr = cl.class_probabilities(known_sample)
-        print "%s: known_sample: %s" % (cl, str(cl_distr))
+        print "for known_sample:"
+        pprint.pprint(cl_distr)
         cl_distr = cl.class_probabilities(unknown_sample)
-        print "%s: unknown_sample: %s" % (cl, str(cl_distr))
+        print "for unknown_sample:"
+        pprint.pprint(cl_distr)
 
 
 Extending with new libraries
